@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright 2015-2017 Hewlett Packard Enterprise Development LP.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <name>Content Segregation</name>
+    <description>A Java module that calls to the Mailgun/Talon library via the Jep interpreter to perform email content segregation</description>
+    <url>https://github.com/CAFDataProcessing/util-email-content-segregation</url>
+
+    <groupId>com.github.cafdataprocessing</groupId>
+    <artifactId>util-email-content-segregation</artifactId>
+    <version>2.0.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>com.github.cafapi</groupId>
+        <artifactId>caf-common</artifactId>
+        <version>1.10.0-205</version>
+    </parent>
+    
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    
+    <developers>
+        <developer>
+            <id>arogan92</id>
+            <name>Adam Rogan</name>
+            <email>adam.pau.rogan@hpe.com</email>
+        </developer>
+        <developer>
+            <id>CJComac</id>
+            <name>Christopher Comac</name>
+            <email>christopher.jam.comac@hpe.com</email>
+        </developer>
+        <developer>
+            <id>dermot-hardy</id>
+            <name>Dermot Hardy</name>
+            <email>dermot.hardy@hpe.com</email>
+        </developer>
+        <developer>
+            <id>connor-mulholland</id>
+            <name>Connor Mulholland</name>
+            <email>conor.mulholland</email>
+        </developer>
+        <developer>
+            <id>aaron-oloughlin</id>
+            <name>Aaron O'Loughlin</name>
+            <email>aaron-oloughlin@hpe.com</email>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>mrj0</groupId>
+            <artifactId>jep</artifactId>
+            <version>3.5.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-module-junit4</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-api-mockito</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    
+    <scm>
+        <connection>scm:git:https://github.com/CAFDataProcessing/util-email-content-segregation.git</connection>
+        <developerConnection>scm:git:https://github.com/CAFDataProcessing/util-email-content-segregation.git</developerConnection>
+        <url>https://github.com/CAFDataProcessing/util-email-content-segregation.git</url>
+    </scm>
+
+</project>
