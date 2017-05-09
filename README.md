@@ -4,7 +4,7 @@ A Java module that calls to the Mailgun/Talon library via the Jep interpreter to
 
 ## Install Instructions (Unix)
 
-1.  Download and run the setup script from the jep-talon-install-script project [found here.](https://github.com/CAFDataProcessing/worker-markup/jep-talon-install-script)
+1.  Download and run the setup script from the jep-talon-install-script project [found here.](https://github.com/CAFDataProcessing/worker-markup/tree/develop/jep-talon-install-script)
 2.  Download the split_email.py python script from the util-email-content-segregation-script project [found here.](https://github.com/CAFDataProcessing/util-email-content-segregation-script)
 3.  Set the "PYTHONPATH" environment variable to the directory containing the split_email.py file.
 
