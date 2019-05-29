@@ -52,7 +52,11 @@ public class ContentSegregation {
         public void remove() {
             Jep jep = this.get();
             if (jep != null) {
-                jep.close();
+                try {
+                    jep.close();
+                } catch (JepException ex) {
+                    throw new RuntimeException(ex);
+                }
             }
             super.remove();
         }
