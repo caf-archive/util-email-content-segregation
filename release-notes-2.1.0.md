@@ -1,4 +1,5 @@
 #### Version Number
+${version-number}
 
 #### New Features
 - **SCMOD-6825**: There was a warning flagged in worker-familyhashing for the jep component.  
