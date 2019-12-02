@@ -46,29 +46,19 @@
     
     <developers>
         <developer>
-            <id>arogan92</id>
-            <name>Adam Rogan</name>
-            <email>adam.pau.rogan@hpe.com</email>
-        </developer>
-        <developer>
             <id>CJComac</id>
             <name>Christopher Comac</name>
-            <email>christopher.jam.comac@hpe.com</email>
+            <email>christopher.jam.comac@microfocus.com</email>
         </developer>
         <developer>
             <id>dermot-hardy</id>
             <name>Dermot Hardy</name>
-            <email>dermot.hardy@hpe.com</email>
+            <email>dermot.hardy@microfocus.com</email>
         </developer>
         <developer>
             <id>connor-mulholland</id>
             <name>Connor Mulholland</name>
-            <email>conor.mulholland</email>
-        </developer>
-        <developer>
-            <id>aaron-oloughlin</id>
-            <name>Aaron O'Loughlin</name>
-            <email>aaron-oloughlin@hpe.com</email>
+            <email>conor.mulholland@microfocus.com</email>
         </developer>
     </developers>
 
