@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright 2017-2018 Micro Focus or one of its affiliates.
+    Copyright 2017-2020 Micro Focus or one of its affiliates.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -73,8 +73,7 @@
     </developers>
 
     <properties>
-        <copyrightYear>2018</copyrightYear>
-        <copyrightNotice>Copyright ${project.inceptionYear}-${copyrightYear} Micro Focus or one of its affiliates.</copyrightNotice>
+        <copyrightYear>2020</copyrightYear>
         <enforceCorrectDependencies>true</enforceCorrectDependencies>
         <mockitoVersion>1.10.19</mockitoVersion>
         <powermockVersion>1.6.4</powermockVersion>
