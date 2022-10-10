@@ -21,7 +21,7 @@ import jep.JepException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.concurrent.Callable;
+import jep.SubInterpreter;
 
 /**
  * Uses Jep to call to the Mailgun/Talon library to separate email content.
@@ -42,7 +42,7 @@ public class ContentSegregation {
         @Override
         protected Jep initialValue() {
             try {
-                return new Jep(false, null, null, new ClassEnquirerImpl());
+                return new SubInterpreter();
             } catch (JepException e) {
                 throw new RuntimeException(e);
             }
