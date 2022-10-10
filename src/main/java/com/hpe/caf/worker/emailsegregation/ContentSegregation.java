@@ -21,6 +21,7 @@ import jep.JepException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import jep.JepConfig;
 import jep.SubInterpreter;
 
 /**
@@ -42,7 +43,12 @@ public class ContentSegregation {
         @Override
         protected Jep initialValue() {
             try {
-                return new SubInterpreter();
+                final JepConfig jepConfig = new JepConfig();
+                jepConfig.setIncludePath(null);
+                jepConfig.setClassLoader(null);
+                jepConfig.setClassEnquirer(new ClassEnquirerImpl());
+ 
+                return new SubInterpreter(jepConfig);
             } catch (JepException e) {
                 throw new RuntimeException(e);
             }
